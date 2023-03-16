@@ -17,13 +17,13 @@
     height: 100vh;
 }
 
-.flexMenu {
+.flex-menu {
     display: flex;
     flex-direction: column;
     margin: 15px;
 }
 
-.flexObject {
+.flex-object {
     display: flex;
     flex-direction: row;
     max-height: 50px;
@@ -34,19 +34,19 @@ svg {
     width: 50px;
 }
 
-.menuText {
+.menu-text {
     font-size: 20px;
     font-weight: bold;
     margin-left: 30px;
 }
 
-.logoObject{
+.logo-object{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
 
-.logoImage {
+.logo-image {
     align-items: start;
     display: flex;
     justify-content:start;
@@ -56,7 +56,7 @@ svg {
     max-width: 100px;
 }
 
-.logoText {
+.logo-text {
     align-items: center;
     color: black;
     display: flex;
@@ -80,14 +80,14 @@ svg {
     justify-content: space-around;
 }
 
-.navBar, .profile {
+.nav-bar, .profile {
     align-items: flex-end;
     display: flex;
     flex-direction: row;
     margin: 0px 15px 0px 15px;
 } 
 
-.formInput {
+.form-input {
     background-color: lightgrey;
     border-radius: 10px;
     border: 5px solid lightcyan;
@@ -96,14 +96,14 @@ svg {
     width: 500px;
 }
 
-.welcomeBar {
+.welcome-bar {
     align-items: flex-end;
     display: flex;
     flex-direction: row;
     justify-content:right;
 } 
 
-.profileButtons {
+.profile-buttons {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -122,7 +122,7 @@ svg {
     width: 70px;
 }
 
-.avatarNav{
+.avatar-nav{
     margin: 0px 20px 0px 20px
 }
 
@@ -175,14 +175,14 @@ svg {
     
 }
 
-.annCard {
+.ann-card {
     background-color: white;
     border-radius: 10px;
     height: 80%;
     width: 80%;
 }
 
-.trendCard {
+.trend-card {
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -192,17 +192,17 @@ svg {
     width: 70%;
 }
 
-.textAnnounce {
+.text-announce {
     padding: 5px 10px;
 }
 
-.textAnnounce > p{
+.text-announce > p{
     font-size: 8px;
     margin: 0;
     padding: 0;
 }
 
-.textAnnounce > h6{
+.text-announce > h6{
     font-size: 15px;
     margin: 0;
     padding: 0;
@@ -216,7 +216,7 @@ svg {
     width: 80%;
 }
 
-.textTrend {
+.text-trend {
     display: flex;
     flex-direction: row;
     justify-content: center;
